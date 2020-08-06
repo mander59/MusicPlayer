@@ -5,3 +5,4 @@ Music player similar to Spotify
 - Responsive design
 - Material UI
 - React Context API
+- Deploy on Firebase
