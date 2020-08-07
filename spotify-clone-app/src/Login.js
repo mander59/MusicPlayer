@@ -1,14 +1,14 @@
 import React from 'react';
 import './Login.css';
-import logo from './assets/images/Spotify_Logo_RGB_Green.png'
+import logo from './assets/images/Spotify_Logo_RGB_Green.png';
+import { loginUrl } from './spotify';
 
 function Login() {
     return (
+        /* Redirect to Spotify login */
         <div className="login">
             <img src={logo} alt="Logo"/>
-            <a>LOGIN WITH SPOTIFY</a>
-            {/* Spotify logo */}
-            {/* Login with Spotify button */}
+            <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
         </div>
     );
 }
